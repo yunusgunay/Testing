@@ -1,0 +1,22 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Virtual Environment
+venv/
+db.sqlite3
+
+# Ignore Node Modules
+frontend/node_modules/
+
+# Ignore Build Files
+frontend/build/
+frontend/.next/
+frontend/dist/
+
+# Ignore IDE/Editor settings
+.vscode/
+.idea/
+.DS_Store
